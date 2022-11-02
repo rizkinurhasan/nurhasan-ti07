@@ -1,0 +1,65 @@
+body {
+    background-color: silver;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#header {
+    background-color: rgb(9, 179, 9);
+    text-align: center;
+    padding: 10px;
+}
+
+#soekarno {
+    font-weight: bold;
+}
+
+#header h1 {
+    color: black;
+}
+
+#header blockquote {
+    background-color: azure;
+}
+
+.menu ul {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 10px;
+}
+
+.menu ul li {
+    border: 4px;
+    background-color: white;
+}
+
+.gambar{
+    text-align: center;
+}
+
+.bigger {
+    font-size: 20px;
+}
+
+.fp::first-letter {
+    font-size: 50px;
+    color: blue;
+}
+
+.koleksi {
+    text-align: center;
+    background-color: azure;
+}
+
+.koleksi img {
+    width: 20%;
+}
+
+.promo {
+    text-align: center;
+}
+
+.promo ol {
+    list-style-type: none;
+}

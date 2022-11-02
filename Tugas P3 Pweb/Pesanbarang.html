@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pemesanan barang</title>
+</head>
+<body>
+    <ul style="text-align: center ; border: 1px solid Black; padding: 10px;">
+        <li style="display: inline-block; border-right: 1px solid black; padding: 0 40px;">Home</li>
+        <li style="display: inline-block; border-right: 1px solid black; padding: 0 40px;">Generate Link</li>
+        <li style="display: inline-block; border-right: 1px solid black; padding: 0 40px;">Transaction History</li>
+        <li style="display: inline-block; border-right: 1px solid black; padding: 0 40px;">Policy</li>
+        <li style="display: inline-block; border-right: 1px solid black; padding: 0 40px;">Logout</li>
+    </ul>
+    <div style="border:  1px solid White; padding: 38px;">
+    </div>
+    <div style="float: left; Width: 28%; border: 1px solid White">
+        <img src="img/kaospolos.jpg" style="margin-left: 120px;" width="180px" height="180px">
+        <input type="button" style="margin-left: 120px;" value="upload picture">
+    </div>
+    <div style="float: left; width: 69%; Border: 1px solid White">
+        <form method="post">
+            <table>
+                <tr>
+                    <td>Title here :</td>
+                    <td style="border: 1px solid White; width: 170px;"> <input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Description : </td>
+                    <td style="border: 1px solid White; width: 80%;">
+                        <textarea style="resize: none; Height:70px; width: 170px;"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Account Number : </td>
+                    <td style="border: 1px solid White; width: 170px;"> <input type="Number"></td>
+                </tr>
+                <tr>
+                    <td>Bank : </td>
+                    <td style="border: 1px solid White;">
+                        <select>
+                            <option>BCA</option>
+                            <option>MANDIRI</option>
+                            <option>BRI</option>
+                            <option>BANK LAIN</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Account Holder : </td>
+                    <td style="border: 1px solid White; width: 170px;"> <input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Transaction :  </td>
+                    <td style="border: 1px solid White;"><select name="" size="1"></select>
+                        <div>
+                            *if the transaction is for 3 person, choose 3 form the drop-down list
+                        </div>
+                        <div>
+                            <input type="checkbox">
+                            <label for="Send To Massage Mobile Phone "> Send to Mobile Phone </label>
+                        </div>
+                        <div>
+                            <input type="checkbox">
+                            <label for="Send To Massage Email "> Send to Email </label>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Send To Mobile Phone
+                    </td>
+                    <td style="border: 1px solid White;">
+                        <input type="number" placeholder="Number Telephone">
+                    </td>
+                </tr>
+                <tr>
+                    <td> Send to Email : </td>
+                    <td style="border: 1px solid white;">
+                        <input type="email" name="" id="">    
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td style="border: 1px solid white;">
+                    <input type="button" value="Generate Link" style="background: Blue; ">
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>
+</body>
+</html>
